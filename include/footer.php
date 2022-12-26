@@ -5,7 +5,7 @@
       <div class="row"> 
         <!--Footer Widget Start-->
         <div class="col-md-3 col-sm-6">
-          <div class="textwidget"> <img src="images/footer-logo2.png" alt="">
+          <div class="textwidget"> <img src="images/logo_fot.png" alt="">
             <address>
             <ul>
               <li> <i class="fas fa-university"></i> <strong>Address:</strong> Block H, Cosmo Avenue, #201
@@ -94,11 +94,11 @@
 
 <nav id="sidebar">
   <div id="dismiss"> <i class="fas fa-arrow-right"></i> </div>
-  <div class="sidebar-header"> <img src="images/footer-logo2.png" alt=""> </div>
+  <div class="sidebar-header"> <img src="images/logo_footer.png" alt=""> </div>
   <ul class="list-unstyled components">
     <li class="active"> <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
       <ul class="collapse list-unstyled" id="homeSubmenu">
-        <li><a href="index-2.php">Default Home Page</a></li>
+        <li><a href="index.php">Default Home Page</a></li>
         <li><a href="home-two.php">Home Page Two</a></li>
         <li><a href="home-three.php">Home Page Three</a></li>
       </ul>
@@ -113,6 +113,7 @@
   </ul>
 </nav>
 <div class="overlay"></div>
+
 
 
 <script>

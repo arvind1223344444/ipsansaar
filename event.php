@@ -19,6 +19,7 @@
                      <div class="col-md-9">
                         <!--Event List Box Start-->
                         <div class="event-list-box">
+						<span class="bg-danger fw-bold" style="padding:5px 10px!important; color:#000000;"><i class="fa fa-circle mr-1" aria-hidden="true" style="color:red;"></i>  Off Event </span>
                            <ul>
                               <li class="edate"><strong>30 Jan, 2019</strong> 09:00 pm</li>
                               <li> <img src="images/elimg1.jpg" alt=""> </li>
@@ -32,6 +33,7 @@
                         <!--Event List Box End--> 
                         <!--Event List Box Start-->
                         <div class="event-list-box">
+					
                            <ul>
                               <li class="edate"><strong>30 Jan, 2019</strong> 09:00 pm</li>
                               <li> <img src="images/elimg2.jpg" alt=""> </li>
@@ -121,16 +123,7 @@
                      </div>
                      <div class="col-md-3">
                         <div class="sidebar">
-                           <!--Widget Start-->
-                           <div class="widget">
-                           <h4>About us</h4>
-                              <div class="about-widget inner">
-                                 <img src="images/about-widget-img.jpg" alt="">
-                                 <p> On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment. </p>
-                                 <a href="#">More About us</a> 
-                              </div>
-                           </div>
-                           <!--Widget End--> 
+                         
                            <!--Widget Start-->
                            <div class="widget">
                             <h4>Recent Posts</h4>

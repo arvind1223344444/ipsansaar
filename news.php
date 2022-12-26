@@ -5,7 +5,7 @@
             <div class="container">
                <h2>  News</h2>
                <ul>
-                  <li> <a href="index-2.html">Home</a> </li>
+                  <li> <a href="index.php">Home</a> </li>
                  
                   <li> News </li>
                </ul>

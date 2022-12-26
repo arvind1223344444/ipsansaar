@@ -29,7 +29,7 @@
   <!--Header Start-->
   <header class="wf100 header">
     <div class="topbar">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <ul class="left-links">
@@ -41,9 +41,9 @@
           </div>
           <div class="col-md-6 col-sm-6">
             <ul class="right-links">
-              <li> <a href="#">Toll Free: <strong>0800 12345</strong></a> </li>
-			      <li> <a href="#"><i class="fas fa-lock"></i> LOGIN</a> </li>
-              <li> <a href="#"><i class="fas fa-street-view"></i> REGISTER</a> </li>
+			<li> <a href="#">Toll Free: <strong>0800 12345</strong></a> </li>
+			<li> <a href="login.php"><i class="fas fa-lock"></i> LOGIN</a> </li>
+			<li> <a href="register.php"><i class="fas fa-street-view"></i> REGISTER</a> </li>
              <!-- <li> <a href="#"><i class="fas fa-cloud-sun"></i>  <i class="fa fa-user" aria-hidden="true"></i> <strong>Login</strong></a> </li>-->
             </ul>
           </div>
@@ -52,7 +52,7 @@
     </div>
 	
     <div class="logo-nav-row" style="border: 1px solid #ececec;box-shadow: 0px 5px 10px 0 rgb(0 0 0 / 7%); "id="menu_bar" >
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
             <nav class="navbar">
@@ -70,47 +70,62 @@
                       <li><a href="home-three.php">Home Page Three</a></li>
                     </ul>-->
                   </li>
-                  <li class="dropdown"> 
-				  <a href="about.php">About </a>
+				  
+				  
+				   	<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> About <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+					<li><a href="about.php"> About IP Sansaar </a></li>
+					<li><a href="what_We_do.php"> What We Do </a></li>
+					<li><a href="open_discussion.php">Open Discussion</a></li>
+					<li><a href="award.php">Awards</a></li>
+					 <!--  <li><a href="news_details.php"> News Details</a></li>
+					   <li><a href="article.php"> Article  </a></li>
+					   <li><a href="article_details.php"> Article  Details</a></li>-->
+                   
+                    </ul>
+					</li>
+				  
+                
+				  
+				  <li class="dropdown"> 
+				  <a href="community.php">Community </a>
                    <!-- <ul class="dropdown-menu">
                       <li><a href="aboutus.php">About One</a></li>
                       <li><a href="aboutus-two.php">About Two</a></li>
                     </ul>-->
                   </li>
-                 
+				  
 				
-				   	<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> News <span class="caret"></span></a>
+                 
+				 
+				   	<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Knowledge Bank <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       <li><a href="news.php"> News </a></li>
 					   <li><a href="news_details.php"> News Details</a></li>
-                    <!-- <li><a href="department-two.php">Departments Two</a></li>
-                      <li><a href="department-single.php">Departments Details</a></li>-->
-                    </ul>
-                  </li>
-				  
-				  
-				  
-				  <!--  <li class="dropdown">
-				  <a href="event.php">	Event   </a>
-                  </li>-->
-				  
-				  <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Article <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                      <li><a href="article.php"> Article  </a></li>
+					   <li><a href="article.php"> Article  </a></li>
 					   <li><a href="article_details.php"> Article  Details</a></li>
                     <!-- <li><a href="department-two.php">Departments Two</a></li>
                       <li><a href="department-single.php">Departments Details</a></li>-->
                     </ul>
                   </li>
-				  
-				  
-				  	<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Events <span class="caret"></span></a>
+				
+				  <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Events and Sponsorship <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                       <li><a href="event.php"> Upcoming Events </a></li>
 					   <li><a href="event_details.php"> Event  Details</a></li>
-                    <!-- <li><a href="department-two.php">Departments Two</a></li>
+					    <li><a href="sponsers.php"> Beacome a Sponsers</a></li>
+					   <li><a href="sponsers_profile.php"> Sponsers Profile</a></li>
+						<!-- <li><a href="department-two.php">Departments Two</a></li>
                       <li><a href="department-single.php">Departments Details</a></li>-->
                     </ul>
+                  </li>
+				  
+				   <li class="dropdown"> 
+				  <a href="open_discussion.php">Open Discussion Forum </a>
+                   <!-- <ul class="dropdown-menu">
+                      <li><a href="aboutus.php">About One</a></li>
+                      <li><a href="aboutus-two.php">About Two</a></li>
+                    </ul>-->
                   </li>
 				 
 					<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Jobs <span class="caret"></span></a>
@@ -125,12 +140,14 @@
 					</ul>
                   </li>
 				  
-				  <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Sponsers <span class="caret"></span></a>
+				   
+				  
+				  <!--<li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Sponsers <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                        <li><a href="sponsers.php"> Our Sponsers</a></li>
 					   <li><a href="sponsers_profile.php"> Sponsers Profile</a></li>
 					</ul>
-                  </li>
+                  </li>-->
 				  
 				
 				  

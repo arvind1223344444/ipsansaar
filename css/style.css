@@ -84,6 +84,26 @@
 	border: 1px solid;
 	cursor:pointer;
 }*/
+
+/* top navbar section start*/
+.logo-nav-row .navbar-brand{
+	padding: 15px 0!important;
+}
+.logo-nav-row .navbar-nav>li>a {
+    padding: 31px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #777777;
+    font-weight: 700;
+}
+
+.logo-nav-row .navbar-brand {
+	padding: 15px 0;
+	height: inherit;
+	margin-right: 17px!important;
+}
+/* top navbar section end*/
+
 .user_sk span.badge.badge-pill {
     background: #f2f2f2;
     color: #2d659e;
@@ -115,16 +135,15 @@
     position: relative;
 }
 .emergency-info.pro_inf_sec .panel-group .panel-heading a:after {
-        content: "\f107";
-    font-family: "FontAwesome";
-    font-weight: 900;
-    color: #1a0303;
-    font-size: 18px;
-    position: absolute;
-    right: 20px;
-    top: 0;
+	content: "\f107";
+	font-family: "FontAwesome";
+	font-weight: 900;
+	color: #1a0303;
+	font-size: 18px;
+	position: absolute;
+	right: 20px;
+	top: 0;
 }
-
 
 .login-account.job_user_account{
 	box-shadow: 0px 5px 15px 0px rgb(0 0 0 / 7%);
@@ -176,12 +195,12 @@
 	font-weight:600!important;
 }
 .sticky {
-background-color: #fff;
-position: sticky;
-position:fixed;
-top: 0;
-width: 100%;
-z-index:1000!important;
+	background-color: #fff;
+	position: sticky;
+	position:fixed;
+	top: 0;
+	width: 100%;
+	z-index:1000!important;
 }
 .job_inner_section{
 	background-color:#fcfdfe!important;
@@ -244,7 +263,6 @@ z-index:1000!important;
 	background: #d94148;
 	border: 1px solid #d94148;
 }
-
 .event-post-full .dang-inner-html {
     margin-top: 10px;
     line-height: 18px;
@@ -252,11 +270,9 @@ z-index:1000!important;
     font-weight: 400;
     color: #333;
 }
-
 .job_inner_section .inner_search{
 	margin-top:20px;
 }
-
 .main_search_bar {
 width: 50%;
 margin: 34px  auto 24px ;
@@ -353,7 +369,80 @@ margin:0px;
 .topbar {
     background-color:#d94148!important;
 }
+.stack_overflow .full_stack_c{
+	display:flex;
+	justify-content: space-between;
+	margin:20px 0px 10px 0px; 
+}
+.stack_overflow .full_stack_c h5{
+	font-size:20px;
+	font-weight:600;	
+	
+}
+.stack_overflow .right_side_menu{
+	display:flex;
+	justify-content: space-between;
+	
+}
+.stack_overflow .top_filter_menu{
+	display:flex;
+	justify-content: space-between;
+	margin:16px 0px; 
+	align-items: center;
+}
 
+.s-post-summary {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid var(--bc-light);
+    padding: var(--su16);
+}
+.s-post-summary {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid var(--bc-light);
+    padding: var(--su16);
+}
+
+.event-post-full.stock_question_card .event-post-txt a{
+	font-size: 20px;
+	color:#0e71e8!important;
+}
+
+
+.event-post-content a.btn.btn-sm{
+		color: #777777!important;
+		font-size: 14px!important;
+		background-image: #f0f0f0!important;
+		background-color:#f0f0f0!important;
+}
+
+.event-post-full.stock_question_card {
+    margin-bottom: 22px;
+	cursor:pointer;
+}
+.event-post-full.stock_question_card:hover{
+	background:#ffffff6e;
+}
+.right_side_menu button.btn.btn-secondary:focus{
+	border: 2px solid black;
+	background:black;
+	color:white;
+}
+.events-listing .event-post-full .event-post-txt.sock_questi{
+	padding: 20px 30px ;
+}
+.justify-content-between {
+    justify-content: space-between!important;
+}
+.about-post-author.stock_img img{
+	 width: 71px!important;
+    height: 71px;
+}
+.user-thumb.stock_au{
+	width: 52px;
+    height: 52px;
+}
 @media only screen and (max-width: 900px) {
 .main_search_bar {
 width: 90%;
@@ -364,6 +453,12 @@ width: 90%;
 }
 
 @media only screen and (max-width: 600px) {
+	.stack_overflow .top_filter_menu {
+    display: flex;
+    margin: 10px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+}
 	.events-listing .event-post-full .event-post-content .btn-group.share-post {
     width: 100%;
     justify-content: center;
